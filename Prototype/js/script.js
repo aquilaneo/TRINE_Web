@@ -5,7 +5,7 @@ window.addEventListener ("load", init);
 function init () {
 	// canvasサイズ指定
 	const width = 960;
-	const height = 640;
+	const height = window.innerHeight - 3;
 	
 	const renderer = new THREE.WebGLRenderer ({
 		canvas: document.querySelector ("#myCanvas")
